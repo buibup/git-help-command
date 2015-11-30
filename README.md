@@ -5,26 +5,43 @@
 - pwd 
 - ls 
 - clear 
-$ git config --global user.name "John Doe" <br/>
-$ git config --global user.email johndoe@example.com <br/>
-git init <br/>
-git add . <br/> 
-git commit -m  "This is our first commit" <br/>
-git log <br/>
-git log --author="buibup" <br/>
-git status <br/>
-git add second.txt <br/>
-working copy > staging area > repository <br/>
-git add .  //add all file <br/>
-git diff <br/>
-git diff --staged <br/>
-git rm third.txt // remove third.txt file <br/>
+- git config --global user.name "John Doe" 
+- git config --global user.email johndoe@example.com 
+- git init 
+- git add . 
+- git commit -m  "This is our first commit" 
+- git log 
+- git log --author="buibup" 
+- git status 
+- git add second.txt 
 
-git add home.txt >> git rm first.txt //rename <br/>
-git mv second.txt pudding //rename <br/>
-git mv pudding.txt LoveNotes/patty.txt //move to forder lovenotes and rename to patty.txt <br/>
+working copy > staging area > repository
+--------------
+**add all file**
+- git add .  
+**========**
 
-git push origin master // push to github web site <br/>
+**diff**
+- git diff 
+- git diff --staged 
+**================**
+
+**remove third.txt file**
+- git rm third.txt 
+**=====================**
+** rename **
+- git add home.txt 
+- git rm first.txt
+- git mv second.txt pudding.txt
+**===============**
+
+** move **
+- git mv second.txt pudding.txt
+  move to forder lovenotes and rename to patty.txt
+- git mv pudding.txt LoveNotes/patty.txt 
+
+**push to github web site **
+- git push origin master  
 
 
 //check diff file local and github <br/>
