@@ -50,7 +50,7 @@ working copy > staging area > repository
 
 
 **to update your local repository to the newest commit, execute** 
--git pull <br/>
+- git pull <br/>
 
 replace local changes 
 ============
