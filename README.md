@@ -33,3 +33,15 @@ git diff master origin/master <br/>
 
 to update your local repository to the newest commit, execute <br/>
 git pull <br/>
+
+
+
+
+replace local changes <br/>
+In case you did something wrong, which for sure never happens ;), you can replace local changes using the command <br/>
+git checkout -- <filename><br/>
+this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
+<br>
+If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this<br>
+git fetch origin<br>
+git reset --hard origin/master<br>
