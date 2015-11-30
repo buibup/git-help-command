@@ -19,21 +19,21 @@ working copy > staging area > repository
 --------------
 **add all file**
 - git add .  
-**========**
+
 
 **diff**
 - git diff 
 - git diff --staged 
-**================**
+
 
 **remove third.txt file**
 - git rm third.txt 
-**=====================**
-** rename **
+
+**rename**
 - git add home.txt 
 - git rm first.txt
 - git mv second.txt pudding.txt
-**===============**
+
 
 **move**
 - git mv second.txt pudding.txt
