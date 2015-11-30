@@ -1,14 +1,127 @@
-Will become a heading
-==============
+    	It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
-Will become a sub heading
---------------
 
-*This will be Italic*
+Headers
+======
+	# This is an <h1> tag
+	## This is an <h2> tag
+	###### This is an <h6> tag
+	
+	
+Emphasis
+========
 
-**This will be Bold**
+	*This text will be italic*
+	_This will also be italic_
 
-- This will be a list item
-- This will be a list item
+	**This text will be bold**
+	__This will also be bold__
 
-    Add a indent and this will end up as code
+	_You **can** combine them_
+	
+	
+Lists
+=====
+
+**Unordered**
+
+	* Item 1
+	* Item 2
+  	* Item 2a
+  	* Item 2b
+	  
+**Ordered**
+
+	1. Item 1
+	2. Item 2
+	3. Item 3
+   	* Item 3a
+  	 * Item 3b
+	   
+Images
+======
+	![GitHub Logo](/images/logo.png)
+	Format: ![Alt Text](url)	   
+	
+Blockquotes
+==========
+	As Kanye West said:
+	
+	> We're living the future so
+	> the present is our past.
+	
+	
+Inline code
+==========
+	I think you should use an
+	`<addr>` element here instead
+	
+	
+Syntax highlighting
+===================
+	```javascript
+	function fancyAlert(arg) {
+	if(arg) {
+		$.facebox({div:'#foo'})
+	}
+	}
+	```
+	
+**You can also simply indent your code by four spaces:** <br>
+	function fancyAlert(arg) {
+	if(arg) {
+		$.facebox({div:'#foo'})
+	}
+	}
+		
+**Here’s an example of Python code without syntax highlighting:**		
+def foo():
+    if not bar:
+        return True		
+		
+		
+Task Lists
+==========
+	- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+	- [x] list syntax required (any unordered or ordered list supported)
+	- [x] this is a complete item
+	- [ ] this is an incomplete item
+	
+Tables
+======
+**You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:**
+
+	First Header | Second Header 
+	------------ | ------------- 
+	Content from cell 1 | Content from cell 2 
+	Content in the first column | Content in the second column 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+Issue references within a repository
+====================================
+
+*Any number that refers to an Issue or Pull Request will be automatically converted into a link.*
+
+	#1
+	mojombo#1
+	mojombo/github-flavored-markdown#1
+    
+    Will become a heading
+    ==============
+    
+    Will become a sub heading
+    --------------
+    
+    *This will be Italic*
+    
+    **This will be Bold**
+    
+    - This will be a list item
+    - This will be a list item
+    
+        Add a indent and this will end up as code
