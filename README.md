@@ -1,9 +1,10 @@
 # git-help-command
 
+# command
 
-pwd <br/>
-ls <br/>
-clear <br/>
+-pwd 
+-ls 
+-clear 
 $ git config --global user.name "John Doe" <br/>
 $ git config --global user.email johndoe@example.com <br/>
 git init <br/>
