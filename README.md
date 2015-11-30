@@ -45,7 +45,7 @@ working copy > staging area > repository
 
 
 **check diff file local and github**
-- git fetch origin < 
+- git fetch origin 
 - git diff master origin/master 
 
 
