@@ -35,31 +35,29 @@ working copy > staging area > repository
 - git mv second.txt pudding.txt
 **===============**
 
-** move **
+**move**
 - git mv second.txt pudding.txt
   move to forder lovenotes and rename to patty.txt
 - git mv pudding.txt LoveNotes/patty.txt 
 
-**push to github web site **
+**push to github web site**
 - git push origin master  
 
 
-//check diff file local and github <br/>
-git fetch origin <br/> 
-git diff master origin/master <br/>
-//end
-
-to update your local repository to the newest commit, execute <br/>
-git pull <br/>
+**check diff file local and github**
+- git fetch origin < 
+- git diff master origin/master 
 
 
+**to update your local repository to the newest commit, execute** 
+-git pull <br/>
 
+replace local changes 
+============
+**In case you did something wrong, which for sure never happens ;), you can replace local changes using the command <br/>**
+- git checkout -- <filename>
+**this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.**
 
-replace local changes <br/>
-In case you did something wrong, which for sure never happens ;), you can replace local changes using the command <br/>
-git checkout -- <filename><br/>
-this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
-<br>
-If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this<br>
-git fetch origin<br>
-git reset --hard origin/master<br>
+**If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it like this**
+- git fetch origin<br>
+- git reset --hard origin/master<br>
