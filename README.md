@@ -2,9 +2,9 @@
 
 # command
 
--pwd 
--ls 
--clear 
+- pwd 
+- ls 
+- clear 
 $ git config --global user.name "John Doe" <br/>
 $ git config --global user.email johndoe@example.com <br/>
 git init <br/>
